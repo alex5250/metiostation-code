@@ -93,9 +93,3 @@ This project is licensed under the [MIT License](LICENSE).
 
 ---
 
-## Contact
-
-- Your Name - [Your Email] - [Your Website] (if applicable)
-
-- Project Link: [GitHub Repository](https://github.com/your-username/avr-temperature-monitor)
-
