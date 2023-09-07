@@ -65,7 +65,7 @@ int main(void)
     config_amdux();
     usart_init();
     InitADC();
-    char data[5]; // Буфер для дисплея
+    char data[5]; // buffer
     DDRB |= (1 << DDB5);
     while (1) {
         // blink_on();
