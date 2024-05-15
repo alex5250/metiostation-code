@@ -1,12 +1,17 @@
 #define F_CPU 16000000UL
 
 #define DHT11_PIN 4
+/* bug fix 15/05/2024 avr-gcc version 7.3.0 (GCC) 
+not able compile code. 
+solution put avr and delay headers on top
+*/
+#include <avr/io.h>
+#include <util/delay.h>
 
 #include "adc.h"
 #include "calc_values.h"
 #include "uart.h"
-#include <avr/io.h>
-#include <util/delay.h>
+
 
 void config_amdux()
 {
